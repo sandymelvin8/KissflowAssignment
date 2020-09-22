@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trello Automation Test Suite">
+
+    <listeners>
+        <listener class-name="com.trello.ExtentReportListener.ExtentReportListener" />
+    </listeners>
+
+    <test name="Trello website Test Cases">
+        <classes>
+            <class name="com.trello.qa.tests.LoginPageTest"> </class>
+            <class name="com.trello.qa.tests.HomePageTest"> </class>
+            <class name="com.trello.qa.tests.BoardsPageTest"> </class>
+
+        </classes>
+    </test>
+
+</suite>
